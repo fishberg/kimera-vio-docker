@@ -19,7 +19,7 @@ See [notes.md](./notes.md) for details on what changes were made.
 
 ## 2. Build Docker Image
 * `./build.bash`
-    * Builds the Docker image. Will take ~15min, even on fast computers.
+    * Builds the Docker image. Will take ~30min, even on fast computers.
 
 ## 3. Run Docker Image
 * `./run.bash`
@@ -48,3 +48,9 @@ See [notes.md](./notes.md) for details on what changes were made.
 * [Kimera-VIO-ROS Repo](https://github.com/MIT-SPARK/Kimera-VIO-ROS)
 * [Kimera-VIO-ROS Install Instructions](https://github.com/MIT-SPARK/Kimera-VIO-ROS/blob/master/README.md#1-installation)
 * [Kimera-VIO-ROS RealSense D435i Setup](https://github.com/MIT-SPARK/Kimera-VIO-ROS/blob/master/docs/hardware_setup.md)
+
+# TODO
+* Add sample `test-data.bag` file
+* Add instructions for `rosbag play`
+* Add instructions for RealSense D435i
+* Push DockerHub image
